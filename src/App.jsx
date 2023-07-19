@@ -1,0 +1,14 @@
+import "./App.css";
+import Hero from "./components/Hero";
+import Nav from "./components/Navigasi";
+
+const App = () => {
+  return (
+    <div className="App">
+      <Nav />
+      <Hero />
+    </div>
+  );
+};
+
+export default App;
